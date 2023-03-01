@@ -10,17 +10,18 @@
           <v-img src="1.png" contain max-height="500"></v-img>
         </v-col>
     <v-col cols="4">
-          <h5 class="red--text text-darken-4 top">Hello I'm XXX XXX,</h5>
-          <h1 class="white--text mid">Fullstack Developer</h1>
+          <h5 class="green--text text-darken-4 top">Hello I'm XXX XXX,</h5>
+          <h1 class="white--text mid">My favourite Hobby</h1>
           <p class="grey--text mid">
-            I am passionate about using my skills and knowledge to create
-            functional, user-friendly websites. <br />
-            With a strong foundation in HTML, CSS and JavaScript, I have the
-            skills and ability to bring my clients vision to life. I am also
-            commited to staying up-to-date with the latest technologies and best
-            practices in the field, and I'm always looking for opportunities to
-            learn and grow as a programmer.
+            My hobby is gardening that I enjoy tremendously and like from the heart. I feel naturally attached to the world of Nature. Outdoor life is surely better than our indoor life of modern comforts and luxuries. It is only when the weather is extremely hot or cold that I like to stay indoors. But when the weather is fine and pleasant, I rush out to stay in the open atmosphere and natural surroundings. (That is, in fine weather, I desire to stay outdoors).
           </p>
+          <p class="grey--text mid">
+            Gardening keeps us in two worlds at the same time (simultaneously)—the home and nature, that is, the world of our family and its joys and problems and the world of the trees, bushes, plants, and flowers and their charms. There is quite a big garden in our house. I go there early in the morning and work on the plants for an hour. On holidays, I work in the “green world” in the evening too. My work in the garden changes with the season. I plant new trees in the rainy season. I look after my small plants and protect them against the sun. At the end of the summer, I plant vegetables for the winter. At the end of the winter, I plant vegetables for the summer. I sow seeds of vegetables and flowers at the end of the summer. I do not work much in the autumn.
+          </p>
+          <p class="grey--text mid">
+            Truly speaking, physical work in a garden or field gives us physical exercise and mental satisfaction. Both the body and mind get strengthened (or invigorated) in the fresh, natural. atmosphere. It is, thus, natural that I feel stronger and happier when I move back from my small garden to everyday activities. Resultingly, I understand my lessons better, move and walk at greater ease and eat the foods and fruits with greater desire.  
+          </p>
+
         </v-col>
       </v-row>
   </div>
@@ -79,7 +80,7 @@
   background-color: #1e1e1e;
 }
 .bgColor2 {
-  background-color: #ce1d2a;
+  background-color: #0f824d;
 }
 .child1 {
   display: inline-block;

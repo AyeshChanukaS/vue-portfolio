@@ -15,7 +15,7 @@
           <p class="grey--text mid">
             <i>“Gardening brings me to God’s nature, plants, flowers, seeds, vegetables, fruits, on mother Earth.”</i> <br />
           </p>
-          <v-btn tile color="#0f824d" dark>About me</v-btn>
+          <v-btn tile color="#0f824d" dark>About Gardening</v-btn>
         </v-col>
         <v-col cols="12" class="padd">
           <div class="first" id="project">
@@ -34,7 +34,7 @@
                 <div class="child bgColor2">
                   <h3 class="white--text ml-3 mt-4">Tree Types</h3>
                   <p class="grey--text ml-3 mt-6">
-                    My Interest in Music... <br />
+                    My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
                     know more
@@ -42,9 +42,9 @@
                   </v-btn>
                 </div>
                 <div class="child bgColor1">
-                  <h3 class="white--text ml-3 mt-4">Skill</h3>
+                  <h3 class="white--text ml-3 mt-4">gardening technics</h3>
                   <p class="grey--text ml-3 mt-6">
-                    I am Fullstack developer... <br />
+                    My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
                     know more
@@ -52,9 +52,9 @@
                   </v-btn>
                 </div>
                 <div class="child bgColor2">
-                  <h3 class="white--text ml-3 mt-4">About</h3>
+                  <h3 class="white--text ml-3 mt-4">Good thing from gardening</h3>
                   <p class="grey--text ml-3 mt-6">
-                    I am Fullstack developer... <br />
+                    My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
                     <a href="http://localhost:8080/about"> know more </a>
