@@ -27,7 +27,7 @@
                     My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
-                    Know more
+                    <a href="http://localhost:8080/about"> know more </a>
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
