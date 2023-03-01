@@ -57,21 +57,36 @@
                     My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
-                    <a href="http://localhost:8080/about"> know more </a>
+                    <a href="/about"> know more </a>
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
               </v-col>
             </v-row>
+          <v-col>
+            <div class="form">
+              <div class="cont">
+                <feedBackForum />
+              </div>
+            </div>
+          </v-col>
           </div>
         </v-col>
       </v-row>
     </v-container>
-    <footer-bar></footer-bar>
   </v-app>
 </template>
 
+<script>
+import feedBackForum from './feedBackForum.vue'
 
+export default{
+    name:"HomeView",
+    components: {
+      feedBackForum,
+    }
+};
+</script>
 
 
 
@@ -163,4 +178,21 @@ a:visited{
   color:white;
 
 }
+
+.form{
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 100px;
+  background-color:#0f824d;
+
+}
+
+.cont{
+  margin: 50;
+  margin-bottom: 100px;
+}
+
 </style>
