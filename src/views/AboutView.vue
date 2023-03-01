@@ -22,11 +22,31 @@
             Truly speaking, physical work in a garden or field gives us physical exercise and mental satisfaction. Both the body and mind get strengthened (or invigorated) in the fresh, natural. atmosphere. It is, thus, natural that I feel stronger and happier when I move back from my small garden to everyday activities. Resultingly, I understand my lessons better, move and walk at greater ease and eat the foods and fruits with greater desire.  
           </p>
 
+          
         </v-col>
+        <v-col>
+                  <div class="form">
+                    <div class="cont">
+                      <feedBackForum />
+                    </div>
+                  </div>
+              </v-col>
       </v-row>
   </div>
 </v-app>
 </template>
+
+
+<script>
+import feedBackForum from './feedBackForum.vue'
+
+export default{
+    name:"HomeView",
+    components: {
+      feedBackForum,
+    }
+};
+</script>
 
 
 
@@ -56,10 +76,10 @@
 }
 .second {
   width: 100%;
-  height: 400px;
+  height: 250px;
   background: #181818;
   text-align: center;
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
 }
 .secondchild1 {
   display: inline-block;
@@ -113,4 +133,28 @@ h1.number {
   font-size: 50px;
   font-weight: bold;
 }
+
+a:visited{
+  color:white;
+
+}
+
+.form{
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 100px;
+  background-color:#0f824d;
+
+}
+
+.cont{
+  margin: 50;
+  margin-bottom: 100px;
+}
+
+body {background-color: #111111;}
+
 </style>

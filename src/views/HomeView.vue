@@ -1,9 +1,10 @@
 <template>
+   <body>
   <v-app
     id="home"
     :style="{ background: $vuetify.theme.themes.dark.background }"
   >
-    <nav-bar></nav-bar>
+ 
     <v-container fluid>
       <v-row>
         <v-col cols="6">
@@ -20,7 +21,7 @@
         <v-col cols="12" class="padd">
           <div class="first" id="project">
             <v-row>
-              <v-col cols="12">
+              <v-col cols="10">
                 <div class="child bgColor1">
                   <h3 class="white--text ml-3 mt-4">About Gardening</h3>
                   <p class="grey--text ml-3 mt-6">
@@ -61,32 +62,17 @@
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
+                
               </v-col>
             </v-row>
-          <v-col>
-            <div class="form">
-              <div class="cont">
-                <feedBackForum />
-              </div>
-            </div>
-          </v-col>
+          
           </div>
         </v-col>
       </v-row>
     </v-container>
   </v-app>
+</body>
 </template>
-
-<script>
-import feedBackForum from './feedBackForum.vue'
-
-export default{
-    name:"HomeView",
-    components: {
-      feedBackForum,
-    }
-};
-</script>
 
 
 
@@ -116,7 +102,7 @@ export default{
 }
 .second {
   width: 100%;
-  height: 400px;
+  height: 250px;
   background: #181818;
   text-align: center;
   padding: 2rem 2rem;
@@ -127,7 +113,7 @@ export default{
   padding: 2rem 1rem;
   vertical-align: middle;
   text-align: left;
-  margin-top: 250px;
+  margin-top: 500px;
 }
 .child {
   display: inline-block;
@@ -194,5 +180,7 @@ a:visited{
   margin: 50;
   margin-bottom: 100px;
 }
+
+body {background-color: #111111;}
 
 </style>
