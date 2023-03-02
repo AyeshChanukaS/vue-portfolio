@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
+import treeTypesView from '../views/treeTypesView.vue'
+import technicsView from '../views/technicsView.vue'
+import benefitsView from '../views/benefitsView.vue'
 
 Vue.use(VueRouter)
 
@@ -15,7 +18,21 @@ const routes = [
     path: '/about',
     name: 'about',
     component: AboutView
-    //component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  },
+  {
+    path: '/treetype',
+    name: 'treeType',
+    component: treeTypesView
+  },
+  {
+    path: '/technics',
+    name: 'technics',
+    component: technicsView
+  },
+  {
+    path: '/benefits',
+    name: 'benefits',
+    component: benefitsView
   }
 ]
 

@@ -10,7 +10,7 @@
           <v-img src="1.png" contain max-height="500"></v-img>
         </v-col>
     <v-col cols="4">
-          <h5 class="green--text text-darken-4 top">Hello I'm XXX XXX,</h5>
+          <h5 class="green--text text-darken-4 top"></h5>
           <h1 class="white--text mid">My favourite Hobby</h1>
           <p class="grey--text mid">
             My hobby is gardening that I enjoy tremendously and like from the heart. I feel naturally attached to the world of Nature. Outdoor life is surely better than our indoor life of modern comforts and luxuries. It is only when the weather is extremely hot or cold that I like to stay indoors. But when the weather is fine and pleasant, I rush out to stay in the open atmosphere and natural surroundings. (That is, in fine weather, I desire to stay outdoors).

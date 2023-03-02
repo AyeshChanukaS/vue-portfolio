@@ -11,12 +11,12 @@
           <v-img src="1.png" contain max-height="500"></v-img>
         </v-col>
         <v-col cols="4">
-          <h5 class="green--text text-darken-4 top">Hello I'm XXX XXX,</h5>
+          <h5 class="green--text text-darken-4 top"> </h5>
           <h1 class="white--text mid">My favourite Hobby</h1>
           <p class="grey--text mid">
             <i>“Gardening brings me to God’s nature, plants, flowers, seeds, vegetables, fruits, on mother Earth.”</i> <br />
           </p>
-          <v-btn tile color="#0f824d" dark>About Gardening</v-btn>
+          <v-btn tile color="#0f824d" dark><a href="/about">About Gardening</a></v-btn>
         </v-col>
         <v-col cols="12" class="padd">
           <div class="first" id="project">
@@ -28,7 +28,7 @@
                     My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
-                    <a href="http://localhost:8080/about"> know more </a>
+                    <a href="/about"> know more </a>
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
@@ -38,7 +38,7 @@
                     My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
-                    know more
+                    <a href="/treetype"> know more </a>
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
@@ -48,7 +48,7 @@
                     My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
-                    know more
+                    <a href="/technics"> know more </a>
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
@@ -58,7 +58,7 @@
                     My hobby is gardening that I enjoy ... <br />
                   </p>
                   <v-btn dark text>
-                    <a href="/about"> know more </a>
+                    <a href="/benefits"> know more </a>
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
@@ -161,6 +161,10 @@ h1.number {
 }
 
 a:visited{
+  color:white;
+
+}
+a:link{
   color:white;
 
 }
